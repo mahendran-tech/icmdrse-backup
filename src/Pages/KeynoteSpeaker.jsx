@@ -19,7 +19,7 @@ const KeynoteSpeaker = () => {
           bgImg="assets/img/page_heading_1.jpg"
           Title="Keynote Speakers"
         />
-        <Team1 />
+        <Team1 isShow={false} />
       </div>
     </>
   );

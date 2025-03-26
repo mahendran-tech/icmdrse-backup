@@ -21,7 +21,12 @@ const SpeakerSection = ({title, speakerType, data}) => {
     <section>
       <div
         className={
-          ["Session Speakers", "Session Speaker"].includes(title)
+          [
+            "Session Speakers",
+            "Session Speaker",
+            "Panel Discussion Speaker",
+            "Session Chairs",
+          ].includes(title)
             ? "cs_height_10 cs_height_lg_10"
             : "cs_height_80 cs_height_lg_80"
         }
@@ -56,21 +61,26 @@ const SpeakerSection = ({title, speakerType, data}) => {
                         style={{width: "40px", height: "25px"}}
                       />
                     ) : (
-                      <p>No flag available</p>
+                      <p>{""}</p>
                     )}
                   </div>
                   <div className="cs_team_thumbnail cs_mb_10">
                     <img src={item.img} alt="Team Member" />
-                    <div
-                      className="cs_social_btns cs_style_1 cs_white_bg"
-                      style={{cursor: "pointer"}}
-                      onClick={() => handleShowModal(item)}>
-                      <p>View Bio</p>
-                    </div>
-                    <span className="cs_share_btn cs_center">
-                      <i className="bi bi-dash" />
-                      <i className="bi bi-plus" />
-                    </span>
+                    {/* Only show the button if item.bio exists */}
+                    {item.bio && (
+                      <>
+                        <div
+                          className="cs_social_btns cs_style_1 cs_white_bg"
+                          style={{cursor: "pointer"}}
+                          onClick={() => handleShowModal(item)}>
+                          <p>View Bio</p>
+                        </div>
+                        <span className="cs_share_btn cs_center">
+                          <i className="bi bi-dash" />
+                          <i className="bi bi-plus" />
+                        </span>{" "}
+                      </>
+                    )}
                   </div>
                   <div className="cs_team_info">
                     <h3 className="cs_fs_18 cs_semibold mb-0">{item.title}</h3>
@@ -122,14 +132,13 @@ const SpeakerSection = ({title, speakerType, data}) => {
   );
 };
 
-const Speakers = () => {
+const Speakers = ({isShow}) => {
   const [data, setData] = useState([]);
 
-  // Fetch JSON dynamically
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("assets/team1.json"); // Dynamically load the JSON file
+        const response = await fetch("assets/team1.json");
         const result = await response.json();
         setData(result);
       } catch (error) {
@@ -140,26 +149,32 @@ const Speakers = () => {
     fetchData();
   }, []);
 
-  const keynoteSpeakers = data.filter(
-    (item) => item.type === "Keynote Speakers"
-  );
-  const sessionSpeakers = data.filter(
-    (item) => item.type === "Session Speakers"
-  );
-
   return (
     <>
-      {keynoteSpeakers.length > 0 && (
+      {/* Always show these two categories */}
+      <SpeakerSection
+        title="Keynote Speakers"
+        speakerType="Keynote Speakers"
+        data={data}
+      />
+      <SpeakerSection
+        title="Session Speakers"
+        speakerType="Session Speakers"
+        data={data}
+      />
+
+      {/* Show these only when isShow is true */}
+      {isShow && (
         <SpeakerSection
-          title="Keynote Speakers"
-          speakerType="Keynote Speakers"
+          title="Panel Discussion Speaker"
+          speakerType="Panel Discussion Speaker"
           data={data}
         />
       )}
-      {sessionSpeakers.length > 0 && (
+      {isShow && (
         <SpeakerSection
-          title={`Session Speaker${sessionSpeakers.length > 1 ? "s" : ""}`}
-          speakerType="Session Speakers"
+          title="Session Chairs"
+          speakerType="Session Chairs"
           data={data}
         />
       )}

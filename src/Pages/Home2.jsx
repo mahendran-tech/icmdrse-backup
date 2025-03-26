@@ -180,7 +180,7 @@ and Education (ICMDRSE-2025)"
         <Research img1={aboutImg.publication} />
 
         <Counter1 />
-        <Team1 />
+        <Team1 isShow={true} />
 
         {/* <Supporting img1={aboutImg.about_3} /> */}
         <Supporting {...supportingData} />
