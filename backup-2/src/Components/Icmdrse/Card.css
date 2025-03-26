@@ -1,0 +1,73 @@
+:root {
+    --orange: #f97316;
+    --yellow: #facc15;
+    --red: #dc2626;
+    --off-white: #f3f4f6;
+    --default-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 2rem 1.5rem 0;
+    box-shadow: var(--default-shadow);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid transparent;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  .card figure {
+    width: 180px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../../public/assets/img/luna-walking-sequence@c\ 1.svg"); /* Replace with your image path */
+    transition: transform 0.2s ease-in-out;
+    margin: 0;
+  }
+  
+  .card.selected {
+    /* background: var(--orange);
+    border-color: var(--yellow); */
+    transform: scale(1.1);
+  }
+  
+  .card.selected figure {
+    animation: walking 1s steps(7) infinite;
+  }
+  
+  @keyframes walking {
+    to {
+      background-position: 100%;
+    }
+  }
+
+  .cs_iconbox.cs_style_4 .cs_iconbox_icon::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #db052e;
+    opacity: 1;
+    border-radius: inherit;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+  

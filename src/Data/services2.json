@@ -1,0 +1,55 @@
+[
+  {
+    "img": "assets/img/service_img_4.png",
+    "icon": "assets/img/gol-3.png",
+    "title": "Goal 3: Good Health And Well Being",
+    "desc": "To address disparities in health care and to prevent needless suffering and premature deaths through the application of research findings drawn from various accounting, management, and business disciplines.",
+    "desheading": "Sessions to be Addressed",
+    "session1": " <b>Session4: </b>  Home Session Tracks Business, Management Studies & Accounting",
+    "btnText": "READ MORE",
+    "btnLink": "/#"
+  },
+  {
+    "img": "assets/img/gol-8h.png",
+    "icon": "assets/img/gol-8.png",
+    "title": "Goal 8: Decent Work and Economic Growth",
+    "desc": " Research across diverse disciplines, including business models, management, and sustainable development, offers insights crucial for fostering sustained economic growth, full employment, and equitable work opportunities",
+    "desheading": "Sessions to be Addressed",
+    "session1": " <b>Session1: </b>  Engineering Disciplines",
+    "session2": " <b>Session4: </b>  Business, Management Studies & Accounting",
+    "btnText": "READ MORE",
+    "btnLink": "/#"
+  },
+  {
+    "img": "assets/img/gol-12h.png",
+    "icon": "assets/img/gol-12.png",
+    "title": "Goal 12: Responsible Consumption and Production",
+    "desc": "Focus: Exploring innovative approaches to resource efficiency, waste reduction, and sustainable production and consumption practices through cutting-edge technologies, contributing to sustainable development.",
+    "desheading": "Sessions to be Addressed",
+    "session1": " <b>Session4: </b>  Home Session Tracks: Business, Management Studies & Accounting",
+    "objective": "<b> Objective:</b> To identify strategies and tools that integrate advanced technologies into business practices, enabling efficient resource management, minimizing waste, and promoting sustainability in production and consumption cycles.",
+    "btnText": "READ MORE",
+    "btnLink": "/#"
+  },
+  {
+    "img": "assets/img/gol-17h.png",
+    "icon": "assets/img/gol-17.png",
+    "title": "Goal 17: Partnerships for the Goals",
+    "desc": "Focus: Exploring the role of digital initiatives and advanced technologies in creating and implementing smart solutions to accelerate sustainability efforts through global partnerships for sustainable development",
+    "desheading": "Sessions to be Addressed",
+    "session1": " <b>Session1: </b> Engineering Disciplines",
+    "session2": " <b>Session3: </b> Education & Technology Trends",
+    "session3": " <b>Session3: </b> Business, Management Studies & Accounting",
+
+    "btnText": "READ MORE",
+    "btnLink": "/#"
+  },
+  {
+    "img": "/assets/img/service_img_4.png",
+    "icon": "/assets/img/gol-3.png",
+    "title": "5. Cooling System Care",
+    "desc": "Slow engine crank, dim lights, and needing frequent jump starts are typical signs that your battery may need replacement Kinds is Squealing sounds, longer stopping distances, or a soft brake any pedal are common signs that your brakes need attention.<br><br>  Regular servicing is recommended every 5,000 to 7,500 miles, depending on your vehicle and driving conditions We provide a detailed estimate before any work begins  we offer a warranty on all our repair services to ensure your satisfaction and peace of  varies depending on the complexity",
+    "btnText": "READ MORE",
+    "btnLink": "/service/service-details"
+  }
+]

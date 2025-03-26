@@ -1,0 +1,34 @@
+[
+    {
+      "img": "assets/img/icon1.png",   
+      "title": "SCIE Journals",
+      "desc": "Publication Opportunity in Premium publishers Journal which are indexed in SCIE & Scopus",
+      "tit1": "Regular Issue",
+      "tit2": "Special /Thematic Issue"
+    },
+    {
+      "img": "assets/img/icon4.png",   
+      "title": "Scopus Journals",
+      "desc": "Publication Opportunity in Journals which are indexed in Scopus",
+     "tit1": "Regular Issue",
+      "tit2": "Special /Thematic Issue"
+    },
+    {
+      "img": "assets/img/icon4.png",   
+      "title": "Web of Science Publication",
+      "desc": "Web of Science subscription- based service gives you access to numerous databases with citation data for academic areas."
+    },
+    {
+      "img": "assets/img/icon4.png",   
+      "title": "Google Scholar",
+      "desc": "Publication Opportunity in Journals which are indexed in Google Scholar and other premium index agencies",
+      "tit1": "Regular Issue"
+    },
+    {
+      "img": "assets/img/icon4.png",   
+      "title": "ABDC Publication",
+      "desc": "ABDC (Australian Business Deans Council) is a renowned organization that plays a pivotal role in assessing the quality of business and management journals"
+   
+    }        
+  ]
+  

@@ -1,0 +1,22 @@
+[
+  { 
+    "img": "assets/img/icons/counter_icon_1.svg",
+    "title": "Early Bird Registration <br/> Deadline",
+    "desc": "9<sup>th</sup>  January 2025"
+  },
+  {
+    "img": "assets/img/icons/counter_icon_1.svg",
+    "title": "Abstract Submission <br/> Deadline",
+    "desc": "15<sup>th</sup>  January 2025"
+  },
+  {
+    "img": "assets/img/icons/counter_icon_1.svg",
+    "title": "Full paper Submission <br/> Deadline",
+    "desc": "24<sup>th</sup>  January 2025"
+  },  
+  {
+    "img": "assets/img/icons/counter_icon_1.svg",
+    "title": "Registration <br/> Deadline",
+    "desc": "04<sup>th</sup>  February 2025"
+  }
+]

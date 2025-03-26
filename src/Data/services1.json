@@ -1,0 +1,22 @@
+[
+  {
+    "img": "assets/img/session-1.jpg",
+    "btnLink": "/session-1"
+  },
+  {
+    "img": "assets/img/session-2.jpg",
+    "btnLink": "/session-2"
+  },
+  {
+    "img": "assets/img/session-3.jpg",
+    "btnLink": "/session-3"
+  },
+  {
+    "img": "assets/img/session-4.jpg",
+    "btnLink": "/session-4"
+  },
+  {
+    "img": "assets/img/session-5.jpg",
+    "btnLink": "/session-5"
+  }
+]
