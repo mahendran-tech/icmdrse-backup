@@ -2,7 +2,7 @@ import React from "react";
 
 const SustainableGoalsSection = ({
   goals,
-  title = "Physical and Life Sciences is contributing",
+  title = "The Engineering disciplines is contributing",
 }) => {
   return (
     <section
@@ -16,7 +16,7 @@ const SustainableGoalsSection = ({
         <div className="sec-title-three centered mb-1">
           <h2 className="text-height-1 text-center" style={{fontSize: "25px"}}>
             {title} to <br />
-            <span>The Sustainable Development Goals:</span>
+            <span>The sustainable Development Goals:</span>
           </h2>
         </div>
         <div className="row  clearfix">

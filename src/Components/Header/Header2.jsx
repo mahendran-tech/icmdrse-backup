@@ -114,14 +114,23 @@ export default function Header2({variant}) {
                   <Nav setMobileToggle={setMobileToggle} />
                 </div>
               </div>
-              {/* <div className="cs_main_header_right">
-            <div className="solutek-btn2">
-            <Link to="/contact" className="cs_btn cs_style_1">
-                <span>Get a Quote</span>
-                <i className="bi bi-arrow-right"></i>
-                </Link>             
-					  </div>
-            </div> */}
+              <div className="cs_main_header_right">
+                <div className="solutek-btn2">
+                  <a
+                    href="https://www.iferp.in/collaboration-iferp.php"
+                    target="_blank"
+                    className="cs_btn cs_style_1 p-1">
+                    <img
+                      src="assets/img/Note.png"
+                      alt=""
+                      style={{width: "36px"}}
+                    />
+                    <span style={{fontSize: "13px", lineHeight: "16px",color: "#001167"}}>
+                      Apply For Co <br /> Organizer
+                    </span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

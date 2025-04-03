@@ -55,18 +55,15 @@ const Testimonial2 = () => {
                   <TestimonialCard
                     img="assets/img/204.png"
                     title=" Keynote Addresses"
-                    content=" Listen to
-                                        distinguished speakers delivering engaging speeches, providing insights into the
-                                        latest trends and perspectives in multi-disciplinary research and education
-                                    "
+                    content=" Listen to  distinguished speakers delivering engaging speeches, providing insights into the
+                       latest trends and perspectives in multi-disciplinary research and education  "
                   />
                 </div>
                 <div>
                   <TestimonialCard
                     img="assets/img/203.png"
                     title="Panel Discussions"
-                    content="  Engage in interactive
-                                        sessions led by experts and delve into current challenges, future prospects, and
+                    content=" Engage in interactive sessions led by experts and delve into current challenges, future prospects, and
                                         interdisciplinary collaborations in education and research."
                   />
                 </div>

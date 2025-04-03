@@ -129,6 +129,14 @@
     "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
   },
   {
+    "img": "assets/img/psk-4.jpg",
+    "title": "Dr. Chit Su Mon",
+    "desc": "Assistant Professor & Programme Director,",
+    "desc1": "School of Mathematical & Computer Sciences,Heriot-Watt University,Malaysia.",
+    "type": "Panel Discussion Speaker",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
     "img": "assets/img/sc-1.jpg",
     "title": "Dr. Cheok Mui Yee",
     "desc": "Manipal GlobalNxt University,",
@@ -150,6 +158,38 @@
     "desc": "Manipal GlobalNxt University,",
     "desc1": "Malaysia.",
     "type": "Session Chairs",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/sc-5.jpg",
+    "title": "Dr. Sukumaran C",
+    "desc": "Director of Physical Education",
+    "desc1": "Government Law College, Madurai,Tamil Nadu, India.",
+    "type": "Session Chairs",
+    "flagUrl": "https://cdn.iferp.in/flag/india.png"
+  },
+  {
+    "img": "assets/img/sc-6.jpg",
+    "title": "Dr.Fouzia Ajmal",
+    "desc": "Assistant professor",
+    "desc1": "IIUI, Pakistan.",
+    "type": "Session Chairs",
+    "flagUrl": "https://cdn.iferp.in/flag/pakistan.png"
+  },
+  {
+    "img": "assets/img/sc-7.jpg",
+    "title": "Dr. Kamalesh Ravesangar",
+    "desc": "Programme Leader & Assistant Professor",
+    "desc1": "Tunku Abdul Rahman University of Management and Technology,Malaysia.",
+    "type": "Session Chairs",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/sc-8.png",
+    "title": "Dr. Lee Fong Yee",
+    "desc": "Assistant Professor",
+    "desc1": "Faculty of Computing and Informatics,Multimedia University,Malaysia.",
+    "type": "Workshop Speaker",
     "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
   }
 ]

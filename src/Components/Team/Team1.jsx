@@ -26,6 +26,7 @@ const SpeakerSection = ({title, speakerType, data}) => {
             "Session Speaker",
             "Panel Discussion Speaker",
             "Session Chairs",
+            "Workshop Speaker",
           ].includes(title)
             ? "cs_height_10 cs_height_lg_10"
             : "cs_height_80 cs_height_lg_80"
@@ -175,6 +176,13 @@ const Speakers = ({isShow}) => {
         <SpeakerSection
           title="Session Chairs"
           speakerType="Session Chairs"
+          data={data}
+        />
+      )}
+      {isShow && (
+        <SpeakerSection
+          title="Workshop Speaker"
+          speakerType="Workshop Speaker"
           data={data}
         />
       )}

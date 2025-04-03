@@ -21,12 +21,12 @@ const Event = () => {
                 Date : 08/03/2025 | Time : 11:30 AM to 12:30 PM IST
               </p>
               <div>
-                <div class="cs_hero_btns mt-3">
+                <div className="cs_hero_btns mt-3">
                   <Link
                     class="cs_btn cs_style_1 wow fadeInLeft"
                     to="/exclusive-event">
                     <span>Apply Now</span>
-                    <i class="bi bi-arrow-right"></i>
+                    <i className="bi bi-arrow-right"></i>
                   </Link>
                 </div>
               </div>

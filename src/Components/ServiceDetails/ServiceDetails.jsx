@@ -134,30 +134,30 @@ const ServiceDetails = () => {
                     <ul className="list-group list-group-1">
                       <li className="list-group-item">
                         {" "}
-                        <i class="bi bi-bookmarks-fill" /> Research Scholars
+                        <i className="bi bi-bookmarks-fill" /> Research Scholars
                       </li>
                       <li className="list-group-item">
                         {" "}
-                        <i class="bi bi-bookmarks-fill" /> Educators
+                        <i className="bi bi-bookmarks-fill" /> Educators
                       </li>
                       <li className="list-group-item">
-                        <i class="bi bi-bookmarks-fill" /> Industry
+                        <i className="bi bi-bookmarks-fill" /> Industry
                         Professionals
                       </li>
                       <li className="list-group-item">
-                        <i class="bi bi-bookmarks-fill" /> Practitioners (Brand
-                        Specialists, Head of Marketing)
+                        <i className="bi bi-bookmarks-fill" /> Practitioners
+                        (Brand Specialists, Head of Marketing)
                       </li>
                       <li className="list-group-item">
                         {" "}
-                        <i class="bi bi-bookmarks-fill" /> Delegates
+                        <i className="bi bi-bookmarks-fill" /> Delegates
                       </li>
                       <li className="list-group-item">
                         {" "}
-                        <i class="bi bi-bookmarks-fill" /> Stakeholders
+                        <i className="bi bi-bookmarks-fill" /> Stakeholders
                       </li>
                       <li className="list-group-item">
-                        <i class="bi bi-bookmarks-fill" /> Editorial Board
+                        <i className="bi bi-bookmarks-fill" /> Editorial Board
                         Members of Journals
                       </li>
                     </ul>
@@ -166,31 +166,34 @@ const ServiceDetails = () => {
                     <ul className="list-group">
                       <li className="list-group-item">
                         {" "}
-                        <i class="bi bi-bookmarks-fill" /> Faculty Scholars
+                        <i className="bi bi-bookmarks-fill" /> Faculty Scholars
                       </li>
                       <li className="list-group-item">
                         {" "}
-                        <i class="bi bi-bookmarks-fill" /> Innovators
+                        <i className="bi bi-bookmarks-fill" /> Innovators
                       </li>
                       <li className="list-group-item">
                         {" "}
-                        <i class="bi bi-bookmarks-fill" /> PhD Scholars
+                        <i className="bi bi-bookmarks-fill" /> PhD Scholars
                       </li>
                       <li className="list-group-item">
                         {" "}
-                        <i class="bi bi-bookmarks-fill" /> MBA/Msc. Students
+                        <i className="bi bi-bookmarks-fill" /> MBA/Msc. Students
                       </li>
                       <li className="list-group-item">
                         {" "}
-                        <i class="bi bi-bookmarks-fill" /> Government Officials
+                        <i className="bi bi-bookmarks-fill" /> Government
+                        Officials
                       </li>
                       <li className="list-group-item">
                         {" "}
-                        <i class="bi bi-bookmarks-fill" /> Technology Experts
+                        <i className="bi bi-bookmarks-fill" /> Technology
+                        Experts
                       </li>
                       <li className="list-group-item">
                         {" "}
-                        <i class="bi bi-bookmarks-fill" /> Students & Alumini’s
+                        <i className="bi bi-bookmarks-fill" /> Students &
+                        Alumini’s
                       </li>
                     </ul>
                   </div>

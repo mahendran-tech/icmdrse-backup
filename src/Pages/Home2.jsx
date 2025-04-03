@@ -28,17 +28,18 @@ import {Helmet} from "react-helmet-async";
 import {Modal, Button} from "react-bootstrap";
 import {useState, useEffect} from "react";
 import {useNavigate} from "react-router-dom";
+import VideoCard from "../Components/Icmdrse/VideoCard";
 const Home2 = () => {
-  const [show, setShow] = useState(false);
-  const navigate = useNavigate();
-  useEffect(() => {
-    setShow(true); // Show modal when component mounts
-  }, []);
+  // const [show, setShow] = useState(false);
+  // const navigate = useNavigate();
+  // useEffect(() => {
+  //   setShow(true); // Show modal when component mounts
+  // }, []);
 
-  const handleImageClick = () => {
-    setShow(false); // Close the modal
-    navigate("/conference-registration"); // Redirect to the component
-  };
+  // const handleImageClick = () => {
+  //   setShow(false); // Close the modal
+  //   navigate("/conference-registration"); // Redirect to the component
+  // };
 
   const supportingData = {
     imgSrc: aboutImg.support,
@@ -111,6 +112,8 @@ and Education (ICMDRSE-2025)"
           Title="Welcome to ICMDRSE 2025!"
           Content="Where ideas meet innovation and the brightest minds converge to shape the future of education. For years, ICMDRSE has been the premier platform for educators, researchers, policymakers, and industry professionals to network, exchange ideas, and grow in their fields."
         />
+
+        <VideoCard />
 
         <Choose1
           img1={aboutImg.about_5}
@@ -211,7 +214,7 @@ and Education (ICMDRSE-2025)"
         <AssociateSlider />
         {/* <Blog2 /> */}
       </div>
-      <div>
+      {/* <div>
         <Modal show={show} onHide={() => setShow(false)} centered>
           <Modal.Header closeButton></Modal.Header>
           <Modal.Body>
@@ -223,7 +226,7 @@ and Education (ICMDRSE-2025)"
             />
           </Modal.Body>
         </Modal>
-      </div>
+      </div> */}
     </div>
   );
 };

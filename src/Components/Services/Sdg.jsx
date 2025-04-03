@@ -70,7 +70,7 @@ const Sdg = () => {
                         <div
                           className="cs_card_info cs_bg_filed "
                           data-src="assets/img/card_bg_1.svg">
-                          <div class="cs_card_icon cs_mb_20">
+                          <div className="cs_card_icon cs_mb_20">
                             <img src="assets/img/gol-3.png" alt="Wheel Icon" />
                           </div>
                           <h3 className="cs_fs_24 cs_semibold cs_mb_14">

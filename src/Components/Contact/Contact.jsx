@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="cs_contact_desc">
               <h3 className="cs_fs_24 cs_mb_33">Conference Secretariat</h3>
               <div className="cs_contact_info_grid border boprder-1">
-                <div className="cs_iconbox gap-3 cs_style_5">
+                <div className="cs_iconbox d-md-flex flex-column flex-md-row gap-3 cs_style_5">
                   <div className=" cs_center cs_accent_bg_light cs_heading_color">
                     <div
                       className="p-4 d-flex flex-column justify-content-center "
@@ -20,7 +20,7 @@ const Contact = () => {
                           display: "contents",
                         }}>
                         <i
-                          class="bi bi-person-down"
+                          className="bi bi-person-down"
                           style={{fontSize: "90px", textAlign: "center"}}
                         />
                       </div>

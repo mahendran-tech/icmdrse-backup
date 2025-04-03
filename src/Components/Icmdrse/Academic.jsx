@@ -27,8 +27,8 @@ const Academic = () => {
     <Container className="mt-5">
       <SectionTitle2 Title={`Academic partner`} isCenter={true} />
       <Row className="d-flex justify-content-center">
-        {data.map((result) => (
-          <Col lg={4} sm={12} className="mt-3">
+        {data.map((result, index) => (
+          <Col key={index} lg={4} sm={12} className="mt-3">
             <div className="shadow-lg p-3 text-center">
               <img src={result.img} alt="" style={{maxWidth: "300px"}} />
               <h6
