@@ -191,5 +191,13 @@
     "desc1": "Faculty of Computing and Informatics,Multimedia University,Malaysia.",
     "type": "Workshop Speaker",
     "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/tan.jpg",
+    "title": "Tan Lay Hong,",
+    "desc": "Senior Lecturer,",
+    "desc1": "Department of Technology Management,Universiti Teknikal Malaysia Melaka, Malaysia",
+    "type": "Session Chairs",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
   }
 ]

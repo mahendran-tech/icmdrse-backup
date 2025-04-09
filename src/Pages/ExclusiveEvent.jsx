@@ -16,13 +16,12 @@ const ExclusiveEvent = () => {
           <div className="col-lg-12 ">
             <h4 className="text-center">Pre-Conference Webinar</h4>
             <h5 className="text-center">
-              Webinar Title : Editing for Non-Native English Authors: Challenges
-              & Solutions
+              Webinar Title : Grant Writing: Best Practices for Success
             </h5>
             <p
               className="text-center"
               style={{fontSize: "18px", fontWeight: "bold"}}>
-              Date : 08/03/2025 | Time : 11:30 AM to 12:30 PM IST
+              Date : 12/04/2025 | Time : 03:30 PM to 04:30 PM IST
             </p>
           </div>
         </div>

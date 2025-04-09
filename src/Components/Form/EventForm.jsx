@@ -140,23 +140,23 @@ const ContactForm = () => {
                     style={{backgroundColor: "#00123b"}}>
                     <div className="">
                       <img
-                        src="assets/img/ex-spk.png"
+                        src="assets/img/ex-spk.jpg"
                         alt=""
                         style={{maxWidth: "200px", padding: "13px"}}
                       />
                     </div>
                     <div>
-                      <h5 style={{color: " #f6073c"}}>Dr.Erisa Kurniati</h5>
+                      <h5 style={{color: " #f6073c"}}>Dr.Shielilo R. Amihan</h5>
                       <p className="text-white">
-                        Assistant Professor <br />
-                        Department of Technology education <br />
-                        Universitas Jambi <br />
-                        Indonesia
+                        Dean for Faculty and Academic Affairs, and Graduate
+                        School <br />
+                        PHINMA Laguna Network, <br />
+                        Philippines
                       </p>
                     </div>
                   </div>
 
-                  <Row
+                  {/* <Row
                     className="d-flex justify-content-center px-2 py-3 mt-4 align-items-center"
                     style={{backgroundColor: "#00123b", margin: "0px"}}>
                     <Col>
@@ -174,7 +174,7 @@ const ContactForm = () => {
                         <li>Writing Style: Clear, Concise, and Precise</li>
                       </ul>
                     </Col>
-                  </Row>
+                  </Row> */}
                 </Box>
               </div>
             </div>

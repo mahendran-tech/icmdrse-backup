@@ -1,8 +1,12 @@
 [
   {
     "img": "assets/img/manipal.jpg",
-    "title": "Manipal GlobalNxt University Malaysia",
+    "title": "Manipal GlobalNxt University <br/>Malaysia ",
+    "country": "Malaysia"
+  },
+  {
+    "img": "assets/img/mmu-logo.jpg",
+    "title": "Multimedia University (MMU)  Conception <br/> Kuala Lumpur, Malaysia",
     "country": "Malaysia"
   }
-
 ]

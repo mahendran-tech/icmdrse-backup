@@ -14,11 +14,10 @@ const Event = () => {
                 Pre-Conference Webinar
               </h3>
               <h5 className="text-center text-white">
-                Webinar Title : Editing for Non-Native English Authors:
-                Challenges & Solutions
+                Webinar Title : Grant Writing: Best Practices for Success
               </h5>
               <p className="cs_font_16 text-center text-white">
-                Date : 08/03/2025 | Time : 11:30 AM to 12:30 PM IST
+                Date : 12/04/2025 | Time : 03:30 PM to 04:30 PM IST
               </p>
               <div>
                 <div className="cs_hero_btns mt-3">

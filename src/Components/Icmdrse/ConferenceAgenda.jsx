@@ -47,27 +47,27 @@ const agendaData = [
     sessions: [
       {time: "08:50 AM - 09:00 AM", title: "Registration Desk"},
       {time: "09:00 AM - 09:05 AM", title: "National Anthem of Malaysia"},
-      {time: "09:05 AM - 09:10 AM", title: "National Anthem of India"},
-      {time: "09:10 AM - 09:20 AM", title: "Welcome Speech by Moderator"},
+
+      {time: "09:05 AM - 09:15 AM", title: "Welcome Speech by Moderator"},
       {
-        time: "09:30 AM - 10:00 AM",
+        time: "09:15 AM - 09:45 AM",
         title: "Speech by Keynote Speaker",
         speaker: "Assoc Prof Ts. Dr. Goh Wei Wei",
       },
       {
-        time: "10:00 AM - 10:30 AM",
+        time: "09:45 AM - 10:15 AM",
         title: "Speech by Session Speaker",
         speaker: "Prof. Dr. Nalin Abeysekera",
       },
       {
-        time: "10:30 AM - 11:00 AM",
+        time: "10:15 AM - 10:45 AM",
         title: "Speech by Session Speaker",
         speaker: "Dr. Anu Sayal",
       },
-      {time: "11:00 AM - 11:10 AM", title: "Photographic Session"},
-      {time: "11:10 AM - 11:20 AM", title: "Refreshment Break"},
-      {time: "11:20 AM - 11:40 AM", title: "Speech by Session Speaker"},
-      {time: "11:40 AM - 12:30 PM", title: "Technical Session I"},
+      {time: "10:45 AM - 10:55 AM", title: "Photographic Session"},
+      {time: "10:55 AM - 11:10 AM", title: "Refreshment Break"},
+      {time: "11:10 AM - 11:30 AM", title: "Speech by Session Speaker"},
+      {time: "11:30 AM - 12:30 PM", title: "Technical Session I"},
       {time: "12:30 PM - 01:30 PM", title: "Lunch break"},
       {
         time: "01:30 PM - 01:50 PM",
