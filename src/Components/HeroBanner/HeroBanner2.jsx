@@ -6,6 +6,7 @@ import HeroSlider from "../Testimonial/HeroSlider";
 import {MdLocationPin} from "react-icons/md";
 import Tooltip from "react-bootstrap/Tooltip";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import parse from "html-react-parser";
 
 const HeroBanner2 = ({
   bgimg,
@@ -109,13 +110,21 @@ const HeroBanner2 = ({
                 {" "}
                 <b>ISBN : </b> 978-93-92104-81-7
               </h4>
-              <p className="cs_hero_subtitle  cs_mb_20 mt-2">
+              <p
+                className="cs_hero_subtitle  cs_mb_20 mt-2"
+                style={{lineHeight: "18px", fontSize: "13px"}}>
                 {" "}
-                <span className="cs_fs_16 " style={{color: "#ef0f3a"}}>
+                <span
+                  className="cs_fs_16 "
+                  style={{
+                    color: "#ef0f3a",
+                    fontSize: "14px",
+                    lineHeight: "20px",
+                  }}>
                   {" "}
                   Organized by :{" "}
                 </span>{" "}
-                {conetnt}
+                {parse(conetnt)}
               </p>
               <div className="cs_mb_20">
                 <img src="assets/img/acc-logo.png" alt="" />

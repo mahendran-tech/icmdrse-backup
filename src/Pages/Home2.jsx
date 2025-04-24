@@ -30,16 +30,16 @@ import {useState, useEffect} from "react";
 import {useNavigate} from "react-router-dom";
 import VideoCard from "../Components/Icmdrse/VideoCard";
 const Home2 = () => {
-  // const [show, setShow] = useState(false);
-  // const navigate = useNavigate();
-  // useEffect(() => {
-  //   setShow(true); // Show modal when component mounts
-  // }, []);
+  const [show, setShow] = useState(false);
+  const navigate = useNavigate();
+  useEffect(() => {
+    setShow(true); // Show modal when component mounts
+  }, []);
 
-  // const handleImageClick = () => {
-  //   setShow(false); // Close the modal
-  //   navigate("/conference-registration"); // Redirect to the component
-  // };
+  const handleImageClick = () => {
+    setShow(false); // Close the modal
+    navigate("/conference-registration"); // Redirect to the component
+  };
 
   const supportingData = {
     imgSrc: aboutImg.support,
@@ -92,7 +92,7 @@ const Home2 = () => {
           subtitle="8th International Conference on"
           title="Multi-Disciplinary Research Studies <br>
 and Education (ICMDRSE-2025)"
-          conetnt=" IFERP Academy - Malaysia Society"
+          conetnt=" Manipal GlobalNxt University Malaysia,Multimedia University (MMU), Malaysia,SEGi University & Colleges, Malaysia and IFERP Academy - Malaysia Society"
           btnname="Abstract Submission"
           btnname1="Registration"
           btnurl="/abstract-submission"
@@ -214,19 +214,19 @@ and Education (ICMDRSE-2025)"
         <AssociateSlider />
         {/* <Blog2 /> */}
       </div>
-      {/* <div>
+      <div>
         <Modal show={show} onHide={() => setShow(false)} centered>
           <Modal.Header closeButton></Modal.Header>
           <Modal.Body>
             <img
-              src="https://cdn.iferp.in/iferp-cms/2025/ramzan-1.jpg"
+              src="https://cdn.iferp.in/iferp-cms/2025/discound-coupon.jpg"
               alt="Conference"
               style={{cursor: "pointer", width: "100%"}}
-              onClick={handleImageClick} // Handle click event
+              onClick={handleImageClick} 
             />
           </Modal.Body>
         </Modal>
-      </div> */}
+      </div>
     </div>
   );
 };

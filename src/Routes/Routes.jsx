@@ -36,6 +36,7 @@ import CpdBenefits from "../Pages/CpdBenefits";
 import NotFound from "../Pages/NotFound";
 import TentativeProgram from "../Pages/TentativeProgram";
 import ExclusiveEvent from "../Pages/ExclusiveEvent";
+import MobilityExchange from "../Pages/MobilityExchange";
 
 export const router = createBrowserRouter([
   {
@@ -183,6 +184,10 @@ export const router = createBrowserRouter([
       {
         path: "/exclusive-event",
         element: <ExclusiveEvent />,
+      },
+      {
+        path: "/mobility-exchange-program",
+        element: <MobilityExchange />,
       },
       {
         path: "*",

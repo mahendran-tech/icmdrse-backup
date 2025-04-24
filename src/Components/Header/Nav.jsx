@@ -300,6 +300,7 @@ export default function Nav({setMobileToggle}) {
           </ul>
         </DropDown>
       </li>
+
       <li className="menu-item-has-children">
         <Link
           to="/"
@@ -334,7 +335,61 @@ export default function Nav({setMobileToggle}) {
           </ul>
         </DropDown>
       </li>
+
+      <li className="menu-item-has-children">
+        <Link
+          to="/"
+          onClick={() => {
+            setMobileToggle(false);
+            window.scrollTo({top: 0, behavior: "smooth"});
+          }}>
+          Highlights
+        </Link>
+        <DropDown>
+          <ul>
+            <li>
+              <Link
+                to="/tentative-program"
+                onClick={() => {
+                  setMobileToggle(false);
+                  window.scrollTo({top: 0, behavior: "smooth"});
+                }}>
+                Tentative Program
+              </Link>
+            </li>
+            <li>
+              <a
+                href="https://www.iferp.in/scholarship-program.php "
+                onClick={() => {
+                  setMobileToggle(false);
+                }}
+                target="_blank">
+                Award
+              </a>
+            </li>
+          </ul>
+        </DropDown>
+      </li>
       <li>
+        <Link
+          to="/mobility-exchange-program"
+          onClick={() => {
+            setMobileToggle(false);
+            window.scrollTo({top: 0, behavior: "smooth"});
+          }}>
+          <span
+            style={{
+              border: "1px",
+              borderStyle: "solid",
+              borderColor: "#00333",
+              borderRadius: "10px",
+              padding: "3px 7px",
+            }}>
+            Exclusive Event{" "}
+          </span>
+        </Link>
+      </li>
+      {/* <li>
         <Link
           to="/tentative-program"
           onClick={() => {
@@ -353,7 +408,7 @@ export default function Nav({setMobileToggle}) {
           target="_blank">
           Award
         </a>
-      </li>
+      </li> */}
       {/* <li>
         <Link
           to="/contact-us"

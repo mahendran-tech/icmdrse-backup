@@ -1024,7 +1024,7 @@ const RegistrationAddon = ({selected}) => {
               disabled={isSubmitting}
               fullWidth
               style={{marginTop: "10px"}}>
-              {isSubmitting ? <CircularProgress size={24} /> : "Subscribe"}
+              {isSubmitting ? <CircularProgress size={24} /> : "Checkout"}
             </Button>
           </CardContent>
         </Card>

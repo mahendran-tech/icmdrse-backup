@@ -7,7 +7,6 @@ const SocialIconsBox = () => {
   const socialLinks = {
     telegram: "http://t.me/s8015008054", // Replace with your Telegram link
     line: "https://line.me/ti/p/2IUMkr0kMa", // Replace with your Line link
-    viber: "viber://chat?number=918015008054", // Replace with your Viber link
   };
 
   // Style for the icon box
@@ -53,11 +52,11 @@ const SocialIconsBox = () => {
         title="Line"
       />
       {/* Viber Icon */}
-      <FaViber
+      {/* <FaViber
         style={{...iconStyle, color: "#7360F2"}} // Viber purple color
         onClick={() => handleIconClick(socialLinks.viber)}
         title="Viber"
-      />
+      /> */}
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import SectionTitle2 from "../Common/SectionTitle2";
-import { Col, Container, Row } from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import parse from "html-react-parser";
 
 const Academic = () => {
@@ -31,9 +31,9 @@ const Academic = () => {
         {data.map((result, index) => (
           <Col key={index} lg={4} sm={12} className="mt-3">
             <div className="shadow-lg h-100 p-3 text-center">
-              <img src={result.img} alt="" style={{maxWidth: "300px"}} />
+              <img src={result.img} alt="" style={{maxWidth: "250px"}} />
               <h6
-                className="text-center mt-4"
+                className="text-center mt-3 mb-2"
                 style={{color: "#5004a1", fontWeight: 500}}>
                 {parse(result.title)}
               </h6>

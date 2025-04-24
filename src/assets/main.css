@@ -8561,3 +8561,14 @@ body.modal-open {
   background-color: #03054b;
   margin-top: 20px;
 }
+
+.item-design-li li {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px dashed #040893;
+  margin: 10px;
+}
+.item-design-li li svg {
+  color: #0056b3;
+  font-size: 40px;
+}
