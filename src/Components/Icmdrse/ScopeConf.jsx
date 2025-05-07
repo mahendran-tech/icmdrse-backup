@@ -2,7 +2,7 @@ import React from "react";
 import SectionTitle2 from "../Common/SectionTitle2";
 import parse from "html-react-parser";
 
-const ScopeConf = ({ img1, content }) => {
+const ScopeConf = ({img1, content}) => {
   return (
     <section>
       <div className="container">
@@ -20,12 +20,12 @@ const ScopeConf = ({ img1, content }) => {
               </blockquote>
             </div>
 
-            <p className="cs_feature_text cs_mb_30">
-              {parse(content)}
-            </p>
+            <p className="cs_feature_text cs_mb_30">{parse(content)}</p>
 
             <p className="cs_feature_text cs_mb_30">
-              Organized by IFERP Academy, the event will promote lively debates,
+              Organized by Manipal GlobalNxt University Malaysia , SEGi
+              University & Colleges Malaysia, Multimedia University (MMU)
+              Malaysia and IFERP Academy, the event will promote lively debates,
               new research approaches, and excellence in multidisciplinary
               education. It offers a unique opportunity for intellectual growth,
               fostering collaboration across fields to advance innovative

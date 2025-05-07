@@ -30,16 +30,16 @@ import {useState, useEffect} from "react";
 import {useNavigate} from "react-router-dom";
 import VideoCard from "../Components/Icmdrse/VideoCard";
 const Home2 = () => {
-  const [show, setShow] = useState(false);
-  const navigate = useNavigate();
-  useEffect(() => {
-    setShow(true); // Show modal when component mounts
-  }, []);
+  // const [show, setShow] = useState(false);
+  // const navigate = useNavigate();
+  // useEffect(() => {
+  //   setShow(true); // Show modal when component mounts
+  // }, []);
 
-  const handleImageClick = () => {
-    setShow(false); // Close the modal
-    navigate("/conference-registration"); // Redirect to the component
-  };
+  // const handleImageClick = () => {
+  //   setShow(false); // Close the modal
+  //   navigate("/conference-registration"); // Redirect to the component
+  // };
 
   const supportingData = {
     imgSrc: aboutImg.support,
@@ -92,7 +92,7 @@ const Home2 = () => {
           subtitle="8th International Conference on"
           title="Multi-Disciplinary Research Studies <br>
 and Education (ICMDRSE-2025)"
-          conetnt=" Manipal GlobalNxt University Malaysia,Multimedia University (MMU), Malaysia,SEGi University & Colleges, Malaysia and IFERP Academy - Malaysia Society"
+          conetnt=" Manipal GlobalNxt University Malaysia , SEGi University & Colleges Malaysia, Multimedia University (MMU) Malaysia and IFERP Academy - Malaysia Society"
           btnname="Abstract Submission"
           btnname1="Registration"
           btnurl="/abstract-submission"
@@ -214,7 +214,7 @@ and Education (ICMDRSE-2025)"
         <AssociateSlider />
         {/* <Blog2 /> */}
       </div>
-      <div>
+      {/* <div>
         <Modal show={show} onHide={() => setShow(false)} centered>
           <Modal.Header closeButton></Modal.Header>
           <Modal.Body>
@@ -226,7 +226,7 @@ and Education (ICMDRSE-2025)"
             />
           </Modal.Body>
         </Modal>
-      </div>
+      </div>*/}
     </div>
   );
 };

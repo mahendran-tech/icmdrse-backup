@@ -11,7 +11,7 @@ const ConferenceRegistration = () => {
     mode: "",
   });
 
-  const disableEarlyBird = false; // Set to true to disable "Early Bird"
+  const disableEarlyBird = true; // Set to true to disable "Early Bird"
 
   // Table Data Structure
   const tables = [
@@ -109,7 +109,7 @@ const ConferenceRegistration = () => {
   };
 
   return (
-    <div className="container-fluid px-4 mt-5">
+    <div className="container-fluid px-4 mt-5  line-strike">
       <h5 style={{color: "red"}} className="text-center">
         **Note: Additional Charges Applicable For Scopus publication (T& C
         Apply)
@@ -176,7 +176,11 @@ const ConferenceRegistration = () => {
                                 type="radio"
                                 id={`physical-radio-${catIndex}-${rowIndex}-${amtIndex}`}
                                 name={`physical-fee-selection-${catIndex}-${rowIndex}`} // Unique name for physical
-                                disabled={disableEarlyBird && amtIndex === 0}
+                                disabled={
+                                  disableEarlyBird &&
+                                  amtIndex === 0 &&
+                                  row.category !== "Listener/Non Presenter"
+                                }
                                 checked={
                                   selected.amount === amount &&
                                   selected.category === row.category &&
@@ -358,7 +362,11 @@ const ConferenceRegistration = () => {
                                 type="radio"
                                 id={`virtual-radio-${catIndex}-${rowIndex}-${amtIndex}`}
                                 name={`virtual-fee-selection-${catIndex}-${rowIndex}`} // Unique name for virtual
-                                disabled={disableEarlyBird && amtIndex === 0}
+                                disabled={
+                                  disableEarlyBird &&
+                                  amtIndex === 0 &&
+                                  row.category !== "Listener/Non Presenter"
+                                }
                                 checked={
                                   selected.amount === amount &&
                                   selected.category === row.category &&

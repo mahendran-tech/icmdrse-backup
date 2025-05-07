@@ -8572,3 +8572,8 @@ body.modal-open {
   color: #0056b3;
   font-size: 40px;
 }
+
+.line-strike input:disabled + label {
+  text-decoration: line-through;
+  color: #27262675;
+}

@@ -147,7 +147,7 @@ const SubmissionProtocols = () => {
                 {
                   title: "Length",
                   description:
-                    "The manuscript should be 6-8 pages long in a double-column format.",
+                    "The manuscript should be 6-8 pages long in column format.",
                 },
 
                 {

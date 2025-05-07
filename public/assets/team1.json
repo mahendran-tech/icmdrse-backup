@@ -118,6 +118,15 @@
     "type": "Keynote Speakers",
     "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
   },
+  {
+    "img": "assets/img/icmdrse-ks-12.jpg",
+    "title": "Datin. Dr. Norhanim binti Dewa",
+    "desc": "Senior Lecturer",
+    "desc1": "Graduate School of Business, SEGi University and Colleges, Malaysia.",
+    "bio": "Datin Dr. Norhanim Dewa is an internationally recognized academic and industry expert with over two decades of leadership in financial education, corporate strategy, and innovation. Currently a Senior Lecturer at SEGi University’s Graduate School of Business, Malaysia, she specializes in corporate finance, capital markets and business development with a strong commitment to the applied student-centered learning. Dr. Norhanim holds a PhD in Management (Finance) and has previously served as Finance Director in both Oil & Gas and F&B sectors. Her professional journey reflects a rare integration of high-level industry acumen and deep academic scholarship. An innovator in gamified learning for financial literacy, Dr. Norhanim is the visionary behind several award-winning innovations namely; SharkFin: The VR Financial Odyssey, SmartFin Junior and SmartFin Pro. These tools blend board game mechanics, digital platforms, and immersive VR technology which earned national accolades such as Gold,Silver, and Special EduTech Innovation Awards at Malaysia’s premier innovation expos. Her work has been distinguished for revolutionizing financial education among youth and advancing SDG 4 (Quality Education). An active researcher and conference speaker, she has published widely in international journals, reviewed for Scopus-indexed proceedings, and led multiple postgraduate research projects across Asia. Passionate about impact-driven education, Dr. Norhanim continues to empower communities through financial literacy, immersive learning, and academicexcellence.",
+    "type": "Keynote Speakers",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
 
   {
     "img": "assets/img/ses-spk-1.jpg",
@@ -161,6 +170,14 @@
     "title": "Dr. Chit Su Mon",
     "desc": "Assistant Professor & Programme Director,",
     "desc1": "School of Mathematical & Computer Sciences,Heriot-Watt University,Malaysia.",
+    "type": "Panel Discussion Speaker",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/tan.jpg",
+    "title": "Tan Lay Hong,",
+    "desc": "Senior Lecturer,",
+    "desc1": "Department of Technology Management,Universiti Teknikal Malaysia Melaka, Malaysia",
     "type": "Panel Discussion Speaker",
     "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
   },
@@ -269,7 +286,7 @@
     "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
   },
   {
-    "img": "assets/img/sc-21.jpg",
+    "img": "assets/img/sc-20.jpg",
     "title": "Dr. Norhasyimi Rahmat,",
     "desc": "Senior Lecturer,",
     "desc1": "School of Chemical Engineering,Universiti Teknologi MARA,Malaysia.",
@@ -293,11 +310,35 @@
     "flagUrl": "https://cdn.iferp.in/flag/finland.png"
   },
   {
-    "img": "assets/img/sc-20.jpg",
+    "img": "assets/img/sc-24.jpg",
+    "title": "Dr. Tan Fee Yean,",
+    "desc": "Associate Professor,",
+    "desc1": "Universiti Utara Malaysia,Malaysia.",
+    "type": "Session Chairs",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/sc-25.png",
+    "title": "Dr. Goh Wei Wei,",
+    "desc": "Associate Professor,",
+    "desc1": "School of Computer Science,Taylor's University, Malaysia.",
+    "type": "Session Chairs",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/sc-26.jpg",
+    "title": "Dr. Everly A. Nacalaban, LPT",
+    "desc": "BSBA Program Chair",
+    "desc1": "Bukidnon State University,Malitbog Campus Malitbog, Bukidnon, Philippines",
+    "type": "Session Chairs",
+    "flagUrl": "https://cdn.iferp.in/flag/philippines.png"
+  },
+  {
+    "img": "assets/img/sc-21.jpg",
     "title": "Assoc Prof Ts Dr. Norbayah Mohd Suki",
     "desc": "Universiti Utara Malaysia",
     "desc1": "Malaysia.",
-    "type": "Session Chairs",
+    "type": "Debate Speaker",
     "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
   },
   {
@@ -331,6 +372,62 @@
     "desc": "Manipal GlobalNxt University,",
     "desc1": "Malaysia",
     "type": "Moderators",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/mod-5.jpg",
+    "title": "Ms. Gu Hairu",
+    "desc": "Graduate School of Business",
+    "desc1": "SEGi University & Colleges,Malaysia",
+    "type": "Moderators",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/mod-6.jpg",
+    "title": " Ms. Farhana Karim ",
+    "desc": "Graduate School of Business",
+    "desc1": "SEGi University & Colleges,Malaysia",
+    "type": "Moderators",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/mod-7.jpg",
+    "title": "Ms. Chao Ruiyun",
+    "desc": "Graduate School of Business",
+    "desc1": "SEGi University & Colleges,Malaysia",
+    "type": "Moderators",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/mod-8.jpg",
+    "title": " Ms. Xu Yang",
+    "desc": "Graduate School of Business",
+    "desc1": "SEGi University & Colleges,Malaysia",
+    "type": "Moderators",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/rd-1.jpg",
+    "title": "Pavitra Vasuthevan",
+    "desc": "Nilai University",
+    "desc1": "Malaysia",
+    "type": "Registration Desk",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/rd-2.jpg",
+    "title": "Haswyini Muthu",
+    "desc": "Nilai University",
+    "desc1": "Malaysia",
+    "type": "Registration Desk",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/rd-3.jpg",
+    "title": "Khairunnisa Wardina Khairul Nidzam",
+    "desc": "Nilai University",
+    "desc1": "Malaysia",
+    "type": "Registration Desk",
     "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
   }
 ]

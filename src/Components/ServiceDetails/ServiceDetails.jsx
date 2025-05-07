@@ -50,13 +50,14 @@ const ServiceDetails = () => {
                 research, investigating diverse educational practices, and
                 fostering multidisciplinary exchanges. ICMDRSE-2025 conference
                 will take place on the 22nd and 23rd of May 2025 in Kuala
-                Lumpur, Malaysia. Organized by The IFERP Academy, this
-                conference intends to spark lively debates, advance novel
-                approaches in research, and promote excellence in education
-                across all disciplines. This event represents a priceless chance
-                for intellectual development and scholarly engagement, with a
-                focus on expanding knowledge and advancing multidisciplinary
-                research.
+                Lumpur, Malaysia. Organized by Manipal GlobalNxt University
+                Malaysia , SEGi University & Colleges Malaysia, Multimedia
+                University (MMU) Malaysia and IFERP Academy, this conference
+                intends to spark lively debates, advance novel approaches in
+                research, and promote excellence in education across all
+                disciplines. This event represents a priceless chance for
+                intellectual development and scholarly engagement, with a focus
+                on expanding knowledge and advancing multidisciplinary research.
               </p>
               <div id="section4">
                 <div className="row mt-5 mb-3">
