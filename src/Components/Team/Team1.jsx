@@ -3,7 +3,7 @@ import {Modal, Button} from "react-bootstrap";
 import SectionTitle2 from "../Common/SectionTitle2";
 import parse from "html-react-parser";
 
-const SpeakerSection = ({title, speakerType, data}) => {
+const SpeakerSection = ({title, speakerType, data, subtitle}) => {
   const [showModal, setShowModal] = useState(false);
   const [selectedMember, setSelectedMember] = useState(null);
 
@@ -38,10 +38,13 @@ const SpeakerSection = ({title, speakerType, data}) => {
 
       <div className="container">
         <div className="row d-flex justify-content-center">
-          <div className="col-lg-12 d-flex justify-content-center">
+          <div className="col-lg-12 d-flex flex-column justify-content-center">
             <h2 className="cs_section_title cs_fs_30 mb-4 wow pulse text-center">
               {title}
             </h2>
+            {subtitle && (
+              <h6 className="text-center mb-4"> {parse(subtitle)} </h6>
+            )}
           </div>
         </div>
         {/* <div className="cs_section_heading cs_style_1 cs_type_1 cs_mb_47">
@@ -171,6 +174,7 @@ const Speakers = ({isShow}) => {
       {isShow && (
         <SpeakerSection
           title="Panel Discussion Speaker"
+          subtitle="<b>Tech-Driven Sustainability:</b> Pioneering Solutions Across Education, Nutrition, and Environment"
           speakerType="Panel Discussion Speaker"
           data={data}
         />

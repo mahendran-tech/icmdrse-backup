@@ -127,6 +127,25 @@
     "type": "Keynote Speakers",
     "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
   },
+  {
+    "img": "assets/img/icmdrse-ks-13.jpg",
+    "title": "Ms. K. RAJALAKSHMI",
+    "desc": "Assistant Professor",
+    "desc1": "Artificial Intelligence and Data Science,Kamaraj College of Engineering and Technology,India.",
+    "bio": "Mrs. K. Rajalakshmi is currently working as Assistant Professor, Department of Artificial Intelligence and Data Science, Kamaraj College of Engineering and Technology (Autonomous), Virudhunagar, Tamilnadu. Pursuing Ph.D in the Faculty of Information and Communication Engineering at Anna University Chennai . M.E in of Computer Science and Engineering, Sethu Institute of Technology, Virudhunagar, Tamilnadu (First Class with Distinction). B.E in of Computer Science and Engineering, SACS Mavmm Engineering College, Madurai, Tamilnadu. I have More than 5 years Teaching experience. Presented 10 Technical Papers in various International/National Conferences (4 IEEE Proceedings, 1 Springer Series). Published 3 Journals. In addition to the credit, have 3 PATENTS based on the research work. Published 1 Book/ 2 Book Chapters Active LIFE member in ISTE, IFERP, IAENG. Research Interest includes Bio-Medical Image Processing, Deep Learning, Machine Learning, Medical Imaging, Networks, Data Science, Python and MatLab.",
+    "type": "Keynote Speakers",
+    "flagUrl": "https://cdn.iferp.in/flag/india.png"
+  },
+
+  {
+    "img": "assets/img/sc-29.jpg",
+    "title": "Ms. N.GAJALAKSHMI",
+    "desc": "Assistant Professor",
+    "desc1": "Artificial Intelligence and Data Science,Kamaraj College of Engineering and College,india",
+    "bio": "With over 20 years of dedicated experience in engineering education, I have consistently demonstrated a commitment to excellence in both teaching and research. I have achieved 100% results in multiple subjects, reflecting my dedication to student success and effective teaching methodologies. My academic credentials are further strengthened by numerous NPTEL certifications, enhancing my knowledge and teaching skills. In research, I have contributed to esteemed journals, filed patents, and authored copyrights, showcasing my commitment to advancing knowledge in my field. I have actively participated in and organized several Faculty Development Programs (FDPs) and workshops, fostering continuous professional growth among faculty members. As the coordinator of the AI-GNITE Innovation Club, I lead initiatives that promote innovation and the application of artificial intelligence in various domains. Additionally, I recently organized an international conference sponsored by TNSCST, facilitating knowledge exchange and collaboration among professionals in the field. Through these endeavors, I strive to contribute meaningfully to the academic community and inspire the next generation of engineers.",
+    "type": "Keynote Speakers",
+    "flagUrl": "https://cdn.iferp.in/flag/india.png"
+  },
 
   {
     "img": "assets/img/ses-spk-1.jpg",
@@ -334,10 +353,58 @@
     "flagUrl": "https://cdn.iferp.in/flag/philippines.png"
   },
   {
+    "img": "assets/img/sc-27.jpg",
+    "title": "Phua Yeong Tsann,",
+    "desc": "Taylor’s University,",
+    "desc1": "Malaysia",
+    "type": "Session Chairs",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/sc-28.jpg",
+    "title": "Dr. R.Aghila",
+    "desc": "Professor",
+    "desc1": "Artificial Intelligence and Data Science,Kamaraj College of Engineering and College,india",
+    "type": "Session Chairs",
+    "flagUrl": "https://cdn.iferp.in/flag/india.png"
+  },
+  {
+    "img": "assets/img/sc-29.jpg",
+    "title": "Ms. N.GAJALAKSHMI",
+    "desc": "Assistant Professor",
+    "desc1": "Artificial Intelligence and Data Science,Kamaraj College of Engineering and College,india",
+    "type": "Session Chairs",
+    "flagUrl": "https://cdn.iferp.in/flag/india.png"
+  },
+  {
+    "img": "assets/img/icmdrse-ks-13.jpg",
+    "title": "Ms. K.RAJALAKSHMI",
+    "desc": "Assistant Professor",
+    "desc1": "Artificial Intelligence and Data Science,Kamaraj College of Engineering and College,india",
+    "type": "Session Chairs",
+    "flagUrl": "https://cdn.iferp.in/flag/india.png"
+  },
+  {
     "img": "assets/img/sc-21.jpg",
     "title": "Assoc Prof Ts Dr. Norbayah Mohd Suki",
     "desc": "Universiti Utara Malaysia",
     "desc1": "Malaysia.",
+    "type": "Debate Speaker",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/ds-2.jpg",
+    "title": "Prof. Ts. Dr. Norazah Mohd Suki",
+    "desc": "Professor of Marketing & E-Commerce",
+    "desc1": "Deputy Dean of Research, Innovation & Corporate Relations,Othman Yeop Abdullah Graduate School of Business (OYAGSB),Malaysia.",
+    "type": "Debate Speaker",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/ds-3.jpg",
+    "title": "Asst. Prof. Dr. Aliyah Nur Zafirah Sanusi",
+    "desc": "Assistant Professor",
+    "desc1": "KULLIYYAH OF ARCHITECTURE AND ENVIRONMENTAL DESIGN,International Islamic University Malaysia,Malaysia.",
     "type": "Debate Speaker",
     "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
   },
@@ -407,6 +474,54 @@
     "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
   },
   {
+    "img": "assets/img/mod-9.jpg",
+    "title": "Mohammad Hadi Ahmadi",
+    "desc": "Taylor’s University",
+    "desc1": "Malaysia",
+    "type": "Moderators",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/mod-10.jpg",
+    "title": "Md. Kowsar Hossain Sakib",
+    "desc": "Taylor’s University",
+    "desc1": "Malaysia",
+    "type": "Moderators",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/mod-11.jpg",
+    "title": "Dr. Erlinda Dignos Rivera",
+    "desc": "Campus Head,",
+    "desc1": "College of Business,Bukidnon State University Malitbog Campus, Philippines",
+    "type": "Moderators",
+    "flagUrl": "https://cdn.iferp.in/flag/Philippines.png"
+  },
+  {
+    "img": "assets/img/mod-12.jpg",
+    "title": "Bhoomika V Nishani",
+    "desc": "Amity University",
+    "desc1": "Bengaluru,India.",
+    "type": "Moderators",
+    "flagUrl": "https://cdn.iferp.in/flag/india.png"
+  },
+  {
+    "img": "assets/img/mod-13.jpg",
+    "title": "Pradnya Mahendra Kamble",
+    "desc": "Amity University",
+    "desc1": "Bengaluru,India.",
+    "type": "Moderators",
+    "flagUrl": "https://cdn.iferp.in/flag/india.png"
+  },
+  {
+    "img": "assets/img/mod-14.jpg",
+    "title": "Chaitanya Nair",
+    "desc": "Amity University",
+    "desc1": "Bengaluru,India.",
+    "type": "Moderators",
+    "flagUrl": "https://cdn.iferp.in/flag/india.png"
+  },
+  {
     "img": "assets/img/rd-1.jpg",
     "title": "Pavitra Vasuthevan",
     "desc": "Nilai University",
@@ -426,6 +541,22 @@
     "img": "assets/img/rd-3.jpg",
     "title": "Khairunnisa Wardina Khairul Nidzam",
     "desc": "Nilai University",
+    "desc1": "Malaysia",
+    "type": "Registration Desk",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/rd-4.jpg",
+    "title": "Li Jie",
+    "desc": "Taylor’s University,",
+    "desc1": "Malaysia",
+    "type": "Registration Desk",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/rd-5.jpg",
+    "title": "Ji Tian Tong",
+    "desc": "Taylor’s University,",
     "desc1": "Malaysia",
     "type": "Registration Desk",
     "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
