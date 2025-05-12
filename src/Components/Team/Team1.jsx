@@ -196,6 +196,7 @@ const Speakers = ({isShow}) => {
       {isShow && (
         <SpeakerSection
           title="Debate Speaker"
+          subtitle="<b>Title : </b> Research for Impact or Research for Publication: What Should Be the Priority"
           speakerType="Debate Speaker"
           data={data}
         />

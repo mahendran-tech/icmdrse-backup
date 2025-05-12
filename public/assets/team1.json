@@ -409,6 +409,14 @@
     "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
   },
   {
+    "img": "assets/img/ds-4.jpg",
+    "title": "Prof. Dr. Ilham Sentosa",
+    "desc": "Associate Professor",
+    "desc1": "Universiti Kuala Lumpur (UniKL),Malaysia.",
+    "type": "Debate Speaker",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
     "img": "assets/img/mode1.jpg",
     "title": "Asst. Prof. Dr. Rana Altounjy",
     "desc": "Manipal GlobalNxt University,",
@@ -520,6 +528,22 @@
     "desc1": "Bengaluru,India.",
     "type": "Moderators",
     "flagUrl": "https://cdn.iferp.in/flag/india.png"
+  },
+  {
+    "img": "assets/img/mod-15.jpg",
+    "title": "Ms. Syaikha Zakira Denila",
+    "desc": "Sulthan Thaha Saifuddin State Islamic University Jambi,",
+    "desc1": "Indonesia",
+    "type": "Moderators",
+    "flagUrl": "https://cdn.iferp.in/flag/indonesia.png"
+  },
+  {
+    "img": "assets/img/mod-16.jpg",
+    "title": "Ms. Yulia Febrianti Putri",
+    "desc": "Sulthan Thaha Saifuddin State Islamic University Jambi,",
+    "desc1": "Indonesia",
+    "type": "Moderators",
+    "flagUrl": "https://cdn.iferp.in/flag/indonesia.png"
   },
   {
     "img": "assets/img/rd-1.jpg",
