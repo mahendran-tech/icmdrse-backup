@@ -1,5 +1,13 @@
 [
   {
+    "img": "assets/img/icmdrse-mep.jpg",
+    "title": "Prof. Dr. Srikumar Chakravarthi",
+    "desc": "Deputy Vice Chancellor (Academic, Research and Innovation)",
+    "desc1": "SEGi University & Colleges,Malaysia.",
+    "type": "Exclusive Workshop Speaker",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
     "img": "assets/img/icmdrse-kspk-9.jpg",
     "title": "Prof. Dr. Chinmoy Sahu",
     "desc": "Vice Chancellor",
@@ -385,6 +393,30 @@
     "flagUrl": "https://cdn.iferp.in/flag/india.png"
   },
   {
+    "img": "assets/img/sc-31.jpg",
+    "title": "Dr. Sandeep. K. Walia",
+    "desc": "Professor",
+    "desc1": "Charutar Vidya Mandal (CVM) University,india",
+    "type": "Session Chairs",
+    "flagUrl": "https://cdn.iferp.in/flag/india.png"
+  },
+  {
+    "img": "assets/img/sc-32.jpg",
+    "title": "Mr. Nihar Malai",
+    "desc": "Sr solutions Architect/ Sr Director",
+    "desc1": "National Life Group,USA",
+    "type": "Session Chairs",
+    "flagUrl": "https://cdn.iferp.in/flag/usa.jpg"
+  },
+  {
+    "img": "assets/img/sc-33.jpg",
+    "title": "NAMI SUSAN KURIAN,",
+    "desc": "Assistant Professor,",
+    "desc1": "Department of Electronics and Communication,Jyothy Institute of Technology, Bengaluru,india",
+    "type": "Session Chairs",
+    "flagUrl": "https://cdn.iferp.in/flag/india.png"
+  },
+  {
     "img": "assets/img/sc-21.jpg",
     "title": "Assoc Prof Ts Dr. Norbayah Mohd Suki",
     "desc": "Universiti Utara Malaysia",
@@ -416,6 +448,23 @@
     "type": "Debate Speaker",
     "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
   },
+  {
+    "img": "assets/img/ds-5.jpg",
+    "title": "Dr Jasmine Anak Jain",
+    "desc": "Senior Lecturer",
+    "desc1": "School of Education,Faculty of Social Sciences & Leisure Management,Taylore University,Malaysia.",
+    "type": "Debate Speaker",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/ds-6.jpg",
+    "title": "Dr. Venoth Rex",
+    "desc": "Faculty of Education and Liberal Arts,",
+    "desc1": "INTI International University,Malaysia.",
+    "type": "Debate Speaker",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+
   {
     "img": "assets/img/mode1.jpg",
     "title": "Asst. Prof. Dr. Rana Altounjy",
@@ -582,6 +631,38 @@
     "title": "Ji Tian Tong",
     "desc": "Taylor’s University,",
     "desc1": "Malaysia",
+    "type": "Registration Desk",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/rd-6.jpg",
+    "title": "Dr. AMUTHA D. M. NAVAMONEY",
+    "desc": "Adjunct Professor,",
+    "desc1": "Globalnxt University,Malaysia.",
+    "type": "Registration Desk",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/rd-7.jpg",
+    "title": "Ms. Hani Zulaikha binti Hisham",
+    "desc": "International Islamic University,",
+    "desc1": "Malaysia.",
+    "type": "Registration Desk",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/rd-8.jpg",
+    "title": "Ms. Anis Hannani binti Razaman",
+    "desc": "International Islamic University,",
+    "desc1": "Malaysia.",
+    "type": "Registration Desk",
+    "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
+  },
+  {
+    "img": "assets/img/rd-9.jpg",
+    "title": "Ms. Khairayu Badron",
+    "desc": "Associate Professor,",
+    "desc1": "International Islamic University,Malaysia.",
     "type": "Registration Desk",
     "flagUrl": "https://cdn.iferp.in/flag/malaysia.png"
   }

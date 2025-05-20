@@ -3,6 +3,9 @@ import BreadCumb from "../Components/Common/BreadCumb";
 import SessionAbstract from "../Components/Icmdrse/SessionAbstract";
 import ConferenceAgenda from "../Components/Icmdrse/ConferenceAgenda";
 import {Helmet} from "react-helmet-async";
+import ConferenceSchedule from "../Components/Icmdrse/ConferenceSchedule";
+import Day2Schedule from "../Components/Icmdrse/Day2Schedule";
+import ConferenceScheduleDay2 from "../Components/Icmdrse/ConferenceScheduleDay2";
 const TentativeProgram = () => {
   return (
     <>
@@ -21,8 +24,17 @@ const TentativeProgram = () => {
             Title="PROGRAMME OVERVIEW"
           />
           <div>
-            <ConferenceAgenda />
+            <ConferenceSchedule />
           </div>
+          <div>
+            <Day2Schedule />
+          </div>
+          <div>
+            <ConferenceScheduleDay2 />
+          </div>
+          {/* <div>
+            <ConferenceAgenda />
+          </div> */}
           <SessionAbstract />
         </div>
       </div>

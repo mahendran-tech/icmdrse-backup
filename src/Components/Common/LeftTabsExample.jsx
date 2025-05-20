@@ -21,7 +21,7 @@ function LeftTabsExample() {
           </Nav>
         </Col>
         <Col sm={9}>
-          <Tab.Content style={{ minHeight: "250px" }}>
+          <Tab.Content style={{minHeight: "250px"}}>
             <Tab.Pane eventKey="first">
               <div className="row">
                 <h5>Editing & Revision</h5>
@@ -35,10 +35,10 @@ function LeftTabsExample() {
                 </div>
                 <div className="col-4">
                   <ul>
-                    <li> Grammatical Corrections</li>
-                    <li> Language Editing </li>
-                    <li> Plagiarism correction.</li>
-                    <li> Proofreading</li>
+                    <li> Research Paper Editing </li>
+                    <li> Case Report Editing </li>
+                    <li> Synopsis Editing </li>
+                    <li> Thesis Editing</li>
                   </ul>
                 </div>
               </div>

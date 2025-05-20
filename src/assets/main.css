@@ -8535,6 +8535,12 @@ body.modal-open {
   padding: 10px 20px !important;
   background: #00db91;
 }
+.table-style-1 tbody td {
+  font-size: 13px !important;
+  line-height: 22px;
+  color: #010f34 !important;
+  padding: 5px 10px !important;
+}
 .table-style tbody td {
   font-size: 16px !important;
   color: #010f34 !important;

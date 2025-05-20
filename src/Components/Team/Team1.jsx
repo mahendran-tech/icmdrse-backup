@@ -3,7 +3,7 @@ import {Modal, Button} from "react-bootstrap";
 import SectionTitle2 from "../Common/SectionTitle2";
 import parse from "html-react-parser";
 
-const SpeakerSection = ({title, speakerType, data, subtitle}) => {
+const SpeakerSection = ({title, speakerType, data, subtitle, title1}) => {
   const [showModal, setShowModal] = useState(false);
   const [selectedMember, setSelectedMember] = useState(null);
 
@@ -25,6 +25,7 @@ const SpeakerSection = ({title, speakerType, data, subtitle}) => {
             "Session Speakers",
             "Session Speaker",
             "Panel Discussion Speaker",
+            "Exclusive Workshop Speaker",
             "Session Chairs",
             "Workshop Speaker",
             "Debate Speaker",
@@ -39,6 +40,7 @@ const SpeakerSection = ({title, speakerType, data, subtitle}) => {
       <div className="container">
         <div className="row d-flex justify-content-center">
           <div className="col-lg-12 d-flex flex-column justify-content-center">
+            <h4 className="text-center"> {title1}</h4>
             <h2 className="cs_section_title cs_fs_30 mb-4 wow pulse text-center">
               {title}
             </h2>
@@ -183,6 +185,15 @@ const Speakers = ({isShow}) => {
         <SpeakerSection
           title="Session Chairs"
           speakerType="Session Chairs"
+          data={data}
+        />
+      )}
+      {isShow && (
+        <SpeakerSection
+          title="Exclusive Workshop Speaker"
+          // title1="Exclusive Workshop at SEGi University & Colleges"
+          subtitle="<b>Workshop Title : </b> 'Breaking Into High-Impact Journals: A Roadmap for Emerging Scholars to Publish in Reputed Journals'"
+          speakerType="Exclusive Workshop Speaker"
           data={data}
         />
       )}
